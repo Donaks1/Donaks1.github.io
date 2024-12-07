@@ -233,9 +233,10 @@ body {
     }
 
     .header {
-        justify-content: flex-start;
-        text-align: center;
         width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        
     }
 
     .picbox {
