@@ -238,7 +238,8 @@ body {
 
     .header-mobile {
         width: 100%; 
-        background-color: rgb(30, 255, 0);
+        height: 10vh;
+        background-color: rgb(150, 253, 255);
         display: flex;
         justify-content: flex-start;
         align-items: center;
