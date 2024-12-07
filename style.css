@@ -188,6 +188,7 @@ body {
     .header {
         justify-content: center;
         text-align: center;
+        width: 100vw;
     }
 
     .picbox {
@@ -206,7 +207,7 @@ body {
         padding: 1rem;
     }
     .name {
-        font-size: 1vw;
+        font-size: 5vw;
         justify-content: center;
     }
 }
