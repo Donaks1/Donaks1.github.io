@@ -95,6 +95,7 @@ body {
 .intro {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 5rem;
     gap: 10rem;
 }
