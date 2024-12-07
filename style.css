@@ -229,6 +229,7 @@ body {
 
     .dropdown {
         display: block;
+        object-position: left;
     }
 
     .header {
