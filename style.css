@@ -206,6 +206,7 @@ body {
         padding: 1rem;
     }
     .name {
+        font-size: 10vw;
         justify-content: center;
     }
 }
