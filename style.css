@@ -188,6 +188,10 @@ body {
         width: 100vw;
     }
 
+    .navbar a {
+        font-size: 1rem;
+    }
+
     .header {
         justify-content: center;
         text-align: center;
