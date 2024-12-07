@@ -1,0 +1,139 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/f0/5b/67/f05b6701811dfd9cfdc96456eadcf1ab.gif');
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-size: cover; /* Makes the image cover the entire area */
+    background-position: center; /* Centers the image */
+}
+
+.header {
+    width: 100%; 
+    height: clamp(3rem, 6rem, 20rem);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.titlediv {
+    text-align: left;
+    margin: 0;
+}
+
+.andoni {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: monospace, Lucida, sans-serif;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+
+.navbar a {
+    color: rgb(141, 141, 141);
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    
+}
+
+.button {
+    background-color: #000000; 
+    padding: 0.5vw 1vw;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.button:hover {
+    /* background-color: #cf1616; */
+    color: white;
+}
+
+.andoni:hover {
+    display: inline-block;
+    font-size: 3.02rem;
+    transition: font-size 0.5s; 
+}
+
+.text {
+    color: white;
+    font-size: clamp(1rem, 1.5rem, 2rem); /* Use rem */
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+    gap: 8vw;
+}
+
+.picbox {
+    width: 25vw;
+    height: 30vw;
+    overflow: hidden;
+    border: 1vw solid rgb(31, 41, 72);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-top: -3vw;
+}
+
+.textbox {
+    width: 25vw;
+    height: 30vw;
+}
+
+.textbox h1,p {
+    color: white;
+    text-align: center;
+}
+
+.textbox p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.picbox img {
+    width: 100%;
+}
+
+.content .picbox {
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
+    border: 1vw solid rgb(172, 181, 210);
+    border-radius: 3vw;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    
+}
+
+
+.picboxsq {
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+}
