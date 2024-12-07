@@ -179,3 +179,30 @@ body {
 .about-button:hover {
     background-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .picbox {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10rem;
+    }
+
+    .textbox {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
