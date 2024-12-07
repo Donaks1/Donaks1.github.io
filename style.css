@@ -182,7 +182,8 @@ body {
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .header {
@@ -207,7 +208,7 @@ body {
         padding: 1rem;
     }
     .name {
-        font-size: 2rem;
+        font-size: 3rem;
         justify-content: center;
     }
 }
