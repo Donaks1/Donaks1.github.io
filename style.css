@@ -184,7 +184,8 @@ body {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        width: 100vw;
     }
 
     .header {
