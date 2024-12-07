@@ -211,4 +211,8 @@ body {
         font-size: 3rem;
         justify-content: center;
     }
+
+    body {
+        background-color: black;
+    }
 }
