@@ -197,7 +197,7 @@ body {
 }
 
 .dropdown {
-    display: none; /* Initially hidden */
+    display: none; 
     position: relative;
 }
 .dropdown-btn {
